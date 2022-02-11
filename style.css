@@ -13,7 +13,19 @@
     display: flex;
     justify-content: flex-end;
 }
-
+.linkContainer{
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+}
+.linkContainer i{
+    font-size: 1.8rem;
+    margin: 0 1rem;
+    color:#183153;
+}
+.linkContainer a{
+   cursor: pointer;
+}
 .headerList{
     display: flex;
     list-style: none;
@@ -49,7 +61,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 200px;
+    min-height: 150px;
     margin-top: 5rem;
     flex-direction: column;
 }
@@ -71,7 +83,7 @@
 .whatIs,.interested{
     padding: 20px 0;
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 3rem;
     background-color: #F7FAFC;
     text-align: center;
     display: flex;
