@@ -106,6 +106,7 @@
 }
 .whatIsTextContainer{
     width: 50%;
+  
     height: 100%;
 
 }
@@ -119,6 +120,7 @@
 .whatIsText{
     font-family: 'Nunito', sans-serif;
     font-size: 1.3rem;
+    text-align: left;
 }
 .interested{
     margin-top: 3rem;
